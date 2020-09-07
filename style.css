@@ -1,8 +1,18 @@
 #container {
-    width: 960px;
-    height: 960px;
-    background-color: blueviolet;
+    width: 100vh;
+    height: 100vh;
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    justify-content: center;
+}
+
+#main {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#controllers {
+    width: 20vh;
 }

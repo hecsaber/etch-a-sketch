@@ -5,7 +5,20 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div id="container"></div>
+        <div id="main">
+            <div id="container"></div>
+            <div id="controllers">
+                <select id="colorize" name="colorize">
+                    <option value="color">color</option>
+                    <option value="black">black</option>
+                </select>
+                <select id="blocksize" name="blocksize">
+                    <option value="16">small</option>
+                    <option value="32">medium</option>
+                    <option value="64">large</option>
+                </select>
+            </div>
+        </div>
         <script src="script.js"></script>
     </body>
 </html>
